@@ -36,7 +36,7 @@ function App() {
       <div className='container'>
         <form onSubmit={anyChosen}>
         <input className='search' placeholder = "Choose your recipe..."onChange={findRecipe} value={mySearch} /> 
-        <button onClick={anyChosen}>
+        <button>
         <img src ={image} alt ="icon"/>
         </button>
       </form>
