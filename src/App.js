@@ -16,7 +16,7 @@ function App() {
       const response = await fetch(`https://api.edamam.com/api/recipes/v2?type=public&q=${word}&app_id=${myId}&app_key=${myKey}`);
       const data = await response.json();
       setChooseRecipe(data.hits);
-    }
+  }
     getRecipe()
   }, [word])
   const findRecipe = (e) => {
